@@ -10,7 +10,9 @@
     <s:hasRole name="管理员">
     <li><a href="user/userList">用户管理</a></li>
     </s:hasRole>
+    <s:hasPermission name="书本查询">
     <li>用户新增</li>
+    </s:hasPermission>
     <li>用户修改</li>
     <li>用户删除</li>
 

@@ -27,6 +27,7 @@ public class UserController {
     }
 
     @RequestMapping("addUser")
+//    @RequiresRoles("书本新增")
     public String addUser(User user){
         int n = userService.insert(user);
         return null;
