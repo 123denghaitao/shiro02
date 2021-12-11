@@ -50,4 +50,8 @@ public interface UserMapper {
      */
 
     List<User> list();
+
+    /**
+     * 测试git
+     */
 }
